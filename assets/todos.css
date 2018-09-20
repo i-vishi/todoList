@@ -44,6 +44,7 @@ span {
 	opacity: 0;
 }
 
+/*hover to see trash icon */
 li:hover span{
 	width: 40px;
 	opacity: 1.0;
@@ -59,6 +60,7 @@ input {
 	border: 3px solid rgba(0,0,0,0);
 }
 
+/* click to focus */
 input:focus{
 	background: #fff;
 	border: 3px solid #2980b9;
