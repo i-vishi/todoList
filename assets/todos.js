@@ -3,7 +3,7 @@ $("ul").on("click", "li", function(){
 	$(this).toggleClass("completed");
 });
 
-//click on X to delete
+//click on traash icon to delete
 $("ul").on("click", "span", function(event){
 	$(this).parent().fadeOut(500, function(){
 		$(this).remove();
@@ -17,11 +17,12 @@ $("input[type='text']").keypress(function(event){
 		//grab new todo from input tag
 		var todoText = $(this).val();
 		$(this).val("");
-		//create neew li and add to ul
+		//create neew li, span and add to ul
 		$("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + todoText + "</li>")
 	}
 });
 
+//toggle input box on clicking
 $(".fa-plus").click(function(){
 	$("input[type='text']").fadeToggle();
 });
