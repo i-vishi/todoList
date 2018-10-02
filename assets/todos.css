@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-	background: #2980b9;
+	background: #1B9CFC;
 	color: white;
 	margin: 0;
 	padding: 10px 20px;
@@ -85,7 +85,7 @@ li:nth-child(2n){
 	width: 360px;
 	margin: 100px auto;
 	background: #f7f7f7;
-	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	box-shadow: 0 10px 6px -4px #333;);
 }
 
 .completed {
